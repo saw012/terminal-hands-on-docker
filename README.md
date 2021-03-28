@@ -7,12 +7,12 @@
 github container registryからイメージを取得する
 
 ```bash
-docker pull XXX
+docker pull ghcr.io/saw012/terminal-hands-on-docker:main
 ```
 
 ## dockerイメージを実行する
 ```bash
-docker run -it XXX zsh
+docker run -it ghcr.io/saw012/terminal-hands-on-docker:main zsh
 ```
 
 ## ハンズオンの内容を実施する
