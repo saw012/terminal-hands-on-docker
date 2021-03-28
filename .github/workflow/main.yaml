@@ -1,10 +1,10 @@
 name: Publish Docker image
 on:
   push:
-    branches:
-      - main
-      - develop
-    pull_request:
+#    branches:
+#      - main
+#      - develop
+#    pull_request:
 
 jobs:
   push_to_registry:
