@@ -19,5 +19,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GHCR_TOKEN }}
           registry: ghcr.io
-          repository: saw012/sixel-hands-on-docker
+          repository: saw012/terminal-hands-on-docker
           tag_with_ref: true
